@@ -1,5 +1,8 @@
 package pl.backlog.green;
 
+import org.bytedeco.ffmpeg.ffmpeg;
+import org.bytedeco.javacpp.Loader;
+import org.bytedeco.opencv.opencv_java;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
@@ -26,7 +29,8 @@ public class VideoMaker {
     }
 
     public static void main(String[] args) throws IOException {
-
+        Loader.load(opencv_java.class);
+        Loader.load(ffmpeg.class);
         String dirPath = "src/main/resources/picts";
         String outputPath = "src/main/resources/video.avi";
         Size size = getExpectedSize(dirPath);

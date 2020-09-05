@@ -2,7 +2,6 @@
   <configuration default="false" name="VideoMaker" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="pl.backlog.green.VideoMaker" />
     <module name="time-lapse-creator" />
-    <option name="PROGRAM_PARAMETERS" value="C:\\Users\\pawel\\OneDrive\\Desktop\\Timelapse01 C:\\Users\\pawel\\OneDrive\\Desktop\\watermarkWhite.png C:\\Users\\pawel\\OneDrive\\Desktop\\timelapse01.avi 1920" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="pl.backlog.green.*" />
